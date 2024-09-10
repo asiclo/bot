@@ -1,10 +1,10 @@
 <?php
-$tg_token = "";
+$tg_token = "7281206855:AAFlWzAt3lNgH7k7fJ2VR8ILOwvkaTg1UKs";
 
-$dbhost = 'localhost';
-$dbuser = '';
-$dbpassword = '';
-$dbname = '';
+$dbhost = 'sql305.infinityfree.com';
+$dbuser = 'if0_37280981';
+$dbpassword = 'kqetIYy5YsFAlQ';
+$dbname = 'if0_37280981_asi';
     
 $link = mysqli_connect($dbhost, $dbuser, $dbpassword, $dbname);
 if (!$link) exit;
